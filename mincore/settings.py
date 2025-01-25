@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = SECRET_KEY = os.environ.get('SECRET_KEY', default='t16+j_gni7x#4k3*)m4*kk5p8u$qy!gb_@=gt$(si9ius5p3@0')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'RENDER' not in os.environ
+DEBUG = True
 
 ALLOWED_HOSTS = ['gastosminicore.onrender.com', 'localhost', '127.0.0.1']
 
